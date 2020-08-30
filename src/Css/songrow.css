@@ -1,0 +1,33 @@
+.Songrow {
+  margin-left: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  color: white;
+}
+
+.Songrow:hover {
+  cursor: pointer;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.songRowinfo {
+  margin-left: 20px;
+}
+
+.songRowinfo > h1 {
+  font-size: 16px;
+}
+
+.songRowinfo > p {
+  font-size: 14px;
+  margin-top: 3px;
+  color: gray;
+}
+
+.songRowAlbum {
+  height: 40px;
+  width: 40px;
+}
